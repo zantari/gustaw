@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+body{
+    background-color: black;
+}
+#game{
+    width: 1000px;
+    height: 300px;
+    border: 20px outset rgb(194, 224, 57);
+    margin: auto;
+    
+    
+  
+}
+#ludzik{
+    width: 60px;
+    height: 50px;
+    background-color: auto;
+    position: absolute;
+    overflow: hidden; 
+    text-align: left;
+    
+    top: 375px;
+    left: 500px;
+}
+.animate{
+    animation: jump 0.3s linear;
+}
+#kloc{
+    width: 40px;
+    height: 40px;
+    background-color: auto;
+    position: absolute;
+    top: 385px;
+    left: 1232px;
+    animation: kloc 1s infinite linear;
+    overflow: hidden; 
+}
+@keyframes kloc {
+    0%{left:1276px;}
+    10%{left:1176.4px;}
+    20%{left:1076.8px;}
+    30%{left:977.2px;}
+    40%{left:877.6px;}
+    50%{left:778px;}
+    60%{left:678.4px;}
+    70%{left:578.8px;}
+    80%{left:479.2px;}
+    90%{left:379.6px;}
+    100%{left:280px;}
+}
+
+@keyframes jump {
+    0%{top: 375px;}
+    30%{top: 270px;}
+    70%{top: 270px;}
+    100%{top: 375px;}
+    
+}
+h1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    color:white;
+}
+p{
+    text-align: center;
+    color: white;
+}
+button{
+    position: absolute;
+    top: 31%;
+    left: 48%;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-size: large;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    font-weight: bolder;
+    border: 3px solid black;
+}
+#xdd{
+    color: red;
+    font-size: 100px;
+}
+#czyPrzejebales{
+    color: black;
+    font-style: italic;
+    position: absolute;
+    border: 3px solid white;
+    height: 295px;
+    width: 994px;
+    font-size: 50px;
+    background-color: none;
+
+
+}
+#Gucio{
+    position: absolute;
+    width: 90px;
+    top: -10px;
+    
+    left: -25px;
+}
+#grubas{
+    position: absolute;
+    width: 150px;
+    top: -37px;
+    
+    left: -47px;
+}
